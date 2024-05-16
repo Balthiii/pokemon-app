@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import RegisterForm from "@/components/registerForm";
+import LoginForm from "@/components/loginForm";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       
       <div className="App">
-        <RegisterForm />
+        <LoginForm />
     </div>
     </>
   );
